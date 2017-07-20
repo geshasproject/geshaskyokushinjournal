@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1920px;
+	background-color: #F0F0F0;
+}
+header {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color:#000000;
+}
+#banner {
+	max-width: 1920px;
+	width: 100%;
+}
+.heading {
+	padding:0 0 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-shadow: 2.5px -1.5px #FFFFFF;
+	
+	
+	
+}
+h1 {
+	padding: 25px 0;
+	text-transform: uppercase;
+	
+	color: #434343;
+}
+.kanku {
+	padding: 0 0 20px 0;
+}
+h2 {
+	text-transform: capitalize;
+	
+    color: #2E2E2E;
+}
+p {
+	padding: 0 5px;
+	 
+	color: #060606;
+	text-align: justify;
+}
+
+#wrapper {
+	width: 95%;	
+	margin: 0 auto;
+	text-align: center;
+}
+.block {
+	background-color: #EDEDED;
+	border-style: solid;
+	border-color: #F7F7F7;
+	
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 35px 0;
+	margin-bottom: 10px;
+}
+.circle {
+	border-radius: 50%;
+}
+
+footer {
+	height: 200px;
+	padding-top: 60px;
+	font-size: 0.75em;
+	line-height: 2;
+	position: relative;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.social-icon {
+	margin: 0 5px;
+}
+@media screen and (min-width: 768px) {
+	.heading {
+		
+		width: 70%;
+		
+	}
+	p {
+		margin: 0 15px;
+	}
+	.block {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+}
+@media screen and (min-width: 1024px){
+	.heading {
+		font-size: 1.1em;
+		width: 60%;
+		padding-top: 10px;
+}
+	.block {
+		width: 60%;
+}
+
+}
+@media screen and (min-width: 1440px){
+	.heading{
+		font-size: 1.375em;
+		width: 50%;
+		padding: 15px 0 55px;
+}
+	.block {
+		width: 50%;
+	}
+}
+
+
+
+
