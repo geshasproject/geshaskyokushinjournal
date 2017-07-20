@@ -26,31 +26,23 @@ header {
 	margin-right: auto;
 	margin-bottom: 10px;
 	text-shadow: 2.5px -1.5px #FFFFFF;
-	
-	
-	
 }
 h1 {
 	padding: 25px 0;
 	text-transform: uppercase;
-	
 	color: #434343;
 }
 .kanku {
 	padding: 0 0 20px 0;
 }
 h2 {
-	text-transform: capitalize;
-	
-    color: #2E2E2E;
+	color: #2E2E2E;
 }
 p {
 	padding: 0 5px;
-	 
 	color: #060606;
 	text-align: justify;
 }
-
 #wrapper {
 	width: 95%;	
 	margin: 0 auto;
@@ -69,7 +61,6 @@ p {
 .circle {
 	border-radius: 50%;
 }
-
 footer {
 	height: 200px;
 	padding-top: 60px;
@@ -86,9 +77,7 @@ a {
 }
 @media screen and (min-width: 768px) {
 	.heading {
-		
 		width: 70%;
-		
 	}
 	p {
 		margin: 0 15px;
@@ -98,7 +87,6 @@ a {
 		margin-left: auto;
 		margin-right: auto;
 }
-
 }
 @media screen and (min-width: 1024px){
 	.heading {
@@ -109,7 +97,6 @@ a {
 	.block {
 		width: 60%;
 }
-
 }
 @media screen and (min-width: 1440px){
 	.heading{
