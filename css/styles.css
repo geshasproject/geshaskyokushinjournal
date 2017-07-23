@@ -43,6 +43,9 @@ p {
 	color: #060606;
 	text-align: justify;
 }
+.center {
+	text-align: center;
+}
 #wrapper {
 	width: 95%;	
 	margin: 0 auto;
